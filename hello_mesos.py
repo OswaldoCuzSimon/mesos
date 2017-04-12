@@ -1,7 +1,5 @@
 import sys,time
-i=1
-while True:
+for i in range(1,21):
 	print("echo \""+str(i)+" hello mesos\"")
 	sys.stderr.write("echo \""+str(i)+" hello mesos\"\n")
-	i=i+1
 	time.sleep(1)
