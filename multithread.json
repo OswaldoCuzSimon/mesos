@@ -1,0 +1,11 @@
+{
+    "id": "multi_thread", 
+    "cmd": "time python multi_thread.py",
+    "cpus": 3,
+    "mem": 10.0,
+    "instances": 1,
+    "uris": [
+        "https://raw.githubusercontent.com/OswaldoCuzSimon/mesos/master/multi_thread.py"
+    ]
+}
+
