@@ -1,0 +1,11 @@
+{
+    "id": "countbash", 
+    "cmd": "time bash count.bash",
+    "cpus": 0.1,
+    "mem": 10.0,
+    "instances": 1,
+    "uris": [
+        "https://raw.githubusercontent.com/OswaldoCuzSimon/mesos/master/count.sh"
+    ]
+}
+
