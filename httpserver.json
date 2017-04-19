@@ -1,0 +1,17 @@
+{
+  "id": "httpserver",
+  "cmd": "python3 -m http.server 8080",
+  "cpus": 2,
+  "mem": 32.0,
+  "instances": 2,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "python:3",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "containerPort": 8080, "hostPort": 0 }
+      ]
+    }
+  }
+}
