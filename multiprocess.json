@@ -1,11 +1,11 @@
 {
-    "id": "multi_proc", 
-    "cmd": "time python multiprocess.py",
-    "cpus": 3,
-    "mem": 10.0,
-    "instances": 1,
-    "uris": [
-        "https://raw.githubusercontent.com/OswaldoCuzSimon/mesos/master/multiprocess.py"
-    ]
+	"id": "multiproc", 
+	"cmd": "time python multiprocess.py",
+	"cpus": 3,
+	"mem": 10.0,
+	"instances": 1,
+	"uris": [
+		"https://raw.githubusercontent.com/OswaldoCuzSimon/mesos/master/multiprocess.py"
+	]
 }
 

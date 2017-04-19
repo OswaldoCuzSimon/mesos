@@ -1,0 +1,23 @@
+{
+  "id": "readwritefile",
+  "cmd": "python readwritefile.py /home/volume/read_write_file.txt readwritefile.py",
+  "cpus": 0.5,
+  "mem": 32.0,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "python:3",
+      "network": "BRIDGE"
+    },
+    "volumes": [
+      {
+        "hostPath": "~/mesos_docker_volume",
+        "containerPath": "/home/volume",
+        "mode": "RW"
+      }
+    ]
+  },
+  "uris": [
+    "https://raw.githubusercontent.com/OswaldoCuzSimon/mesos/master/readwritefile.py"
+  ]
+}
