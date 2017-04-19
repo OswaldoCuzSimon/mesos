@@ -1,6 +1,6 @@
 {
     "id": "countbash", 
-    "cmd": "time bash count.bash",
+    "cmd": "time bash count.sh",
     "cpus": 0.1,
     "mem": 10.0,
     "instances": 1,
